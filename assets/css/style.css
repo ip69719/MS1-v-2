@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Roboto&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+body {
+  font-family: Roboto;
+  color:#2e4443;
+}
+
+h1 {
+  font-family: Merienda;
+  color: #FE5000;
+  font-size: 300%;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 5%;
+  float: left;
+  margin-left: 10%;
+}
+
+.header {
+    height: 150px;
+    width: 100%;
+}
+
+.logo-text-lower {
+    color:#2e4443;
+    font-size: 70%;
+    text-transform: none;   
+}
+
+#contacts {
+text-align: right;
+margin-right: 10%;
+padding-bottom: 1em;
+}
+
+h2{
+    color: #e1470c;
+}
+
+h3{
+    color:teal;
+}
+
+.link {
+    color: #e1470c;
+    text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-highlighter {
+  color: #FE5000;
+}
+
+/*nav styling starts here */
+
+#menu {
+  font-size: 100%;
+  list-style-type: none;
+  text-transform: uppercase;
+  text-align: center;
+  border-top:  1px solid #e1470c;
+  border-bottom: 1px solid  #e1470c;
+  margin: 0 10%;
+}
+
+#menu a {
+text-decoration: none;
+color:teal;
+}
+
+#menu a:hover {
+  color: #e1470c;
+  font-weight: 700;
+}
+
+nav li {
+display: inline;
+padding-right: 50px;
+line-height: 2.5em;
+letter-spacing: 0.1em;
+}
+
+/*nav styling ends here */
+
+
+/*main section styling starts here*/
+
+#reasons{
+  width: 30%;
+  height: 466px;
+  margin-top:3em;
+  margin-left: 10%;
+  border-radius: 2%;
+  background-color:#FFD9BD;
+  padding: 1em;
+}
+
+
+#container-img {
+  width: 45%;
+  height: 498px;
+  margin-right: 10%;
+  position: relative;
+  border-radius: 2%;
+  background-color:#FFD9BD;
+  left: 45%;
+  bottom: 498px;
+  overflow: hidden; 
+}
+
+/* the bellow code was adopted from the TutorialRepublic https://www.tutorialrepublic.com/faq/how-to-auto-resize-an-image-to-fit-into-a-div-container-using-css.php*/
+
+img{
+    max-width: 100%;
+    display: block;
+  }
+
+/*main section styling ends here*/
+
+
+/*footer styling starts here */
+
+.footer {
+  color: #e1470c;
+  text-align: center;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 2em;
+  padding:1em;
+  position: fixed;
+}
+
+/*footer styling ends here */
+
+
+/*timetable styling starts here*/
+
+table {
+  border-collapse: collapse; /*used the following site to lean about border-collapse property: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
+  margin: 0 auto;
+  table-layout: fixed; /*used the following site to lean about table-layoutcss property: https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout*/
+  width: 90%;
+}
+
+th, td {
+  color:#2e4443;
+  font-size: 100%;
+  text-align: center;
+  border: 1px solid teal;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+#timetable-caption {
+  font-size: 200%;
+  text-align: center;
+  color: #e1470c;
+  padding: 1em;
+}
+
+.table_container {
+  width: 50%;
+  height: 400px;
+  margin:auto;
+  background-color:#FFD9BD;
+  border-radius: 2%;
+}
+
+#activities{
+  padding: 3em;
+}
+
+/*timetable styling ends here*/
+
+/*enquiries styling starts here*/
+
+.form_container{
+  width: 30%;
+  height: 500px;
+  margin: auto;
+  background-color: #FFD9BD;
+  border-radius: 2%;
+}
+
+legend {
+  font-size: 200%;
+  text-align: center;
+  color: #e1470c;
+  padding: 1em;
+}
+
+input[type=text], input[type=email], textarea{
+  width: 90%;
+  display: block;
+  padding: 10px;
+  margin: 20px;
+}
+
+input[type=submit] {
+  padding: 10px;
+  margin: 20px;
+  width: 25%;
+  background-color:#4e5858;
+  color: #FE5000;
+  border: none;
+  border-radius: 4px;
+ 
+}
+
+::placeholder { /* used the following site to lean about how to change the color: https://www.w3schools.com/howto/howto_css_placeholder.asp*/   
+  color: #e1470c;
+}
+
+#enquiries{
+  padding: 3em;
+}
+
+/*enquiries styling ends here*/

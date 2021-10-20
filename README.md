@@ -1,108 +1,136 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+[Link to the live project](https://ip69719.github.io/my-first-project/)
 
-Welcome USER_NAME,
+# Welcome to my first website!
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This project was created for an imaginary after-school childcare service.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## User Experience (UX)
 
-## Gitpod Reminders
+### Project Goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The primary Project Goal is to create a marketing website for 'ActiveKids After-school club'.
+The target audience are working parents who are looking for flexible after-school childcare arrangements that support parents' busy lifestyle and provide excellent after school care for children.
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+### User Stories
 
-Another blue button should appear to click: _Open Browser_.
+*   User stories
+    * First Time Visitor Goals
+        * As a First Time Visitor, I want to understand the main purpose of the site and learn more about the organisation.
+        * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        * As a First Time Visitor, I want to easily locate their contact information.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    * Returning Visitor Goals
+        * As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have during and outside normal working hours.
 
-A blue button should appear to click: _Make Public_,
+    * Frequent User Goals
+        * As a Frequent User, I want to check to see if there are any new services or activities offered.
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Design choices
 
-To log into the Heroku toolbelt CLI:
+* Colour Scheme
+The three main colours used are orange, teal and shade of gray. I find that these colours complement each other and are pleasing to the eye.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Typography
+The Roboto font is the main font used throughout the whole website. Roboto was chosen for its friendly features.
+Merienda font is ideal for headlines.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+### Wireframes
 
-## Release History
+[Link to wireframes](https://github.com/ip69719/my-first-project)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Features
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Existing Features
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Features Left to Implement
+    Responsive design on all device sizes
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Technologies used
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Languages used
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Frameworks, Libraries & Programs Used
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* Google Fonts:
+  [Google fonts](https://fonts.google.com/) were used to import the 'Merienda' and 'Roboto' fonts into the style.css file which is used on all pages throughout the project.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* [Git](https://git-scm.com/)
+  Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* GitHub:
+  [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  * The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+  * Testing was done to ensure that all pages were linking correctly.
 
-------
+  * Known Bugs
+    Dummy URL used for action attribute to send the form-data when a form is submitted. 
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+## Deployment
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### GitHub Pages
 
-**How will this affect me?**
+The project was deployed to GitHub Pages using the following steps...
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ip69719/my-first-project)
+1. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+1. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+1. Under "Source", click the dropdown called "None" and select "Master Branch".
+1. The page will automatically refresh.
+1. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Forking the GitHub Repository
 
-**So….?**
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ip69719/my-first-project)
+1. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+1. You should now have a copy of the original repository in your GitHub account.
 
-**Can I opt out?**
+### Making a Local Clone
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ip69719/my-first-project)
+1. Under the repository name, click "Clone or download".
+1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+1. Open Git Bash
+1. Change the current working directory to the location where you want the cloned directory to be made.
+1. Type git clone, and then paste the URL you copied in Step 3.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+1. Press Enter. Your local clone will be created.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Credits
 
-**Anything more?**
+### Content
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* Content of READ.md was written with reference to [Example README.md template](https://github.com/Code-Institute-Solutions/SampleREADME). Deployment section was copied from the template.
 
----
+### Media
 
-Happy coding!
+* Free image was sourced from from [Pexels](https://www.pexels.com/photo/active-kids-doing-bending-exercise-8613305)
+
+### Code
+
+* How to auto-resize an Image to Fit into a DIV Container using CSS. Code was adopted from the [TutorialRepublic](https://www.tutorialrepublic.com/faq/how-to-auto-resize-an-image-to-fit-into-a-div-container-using-css.php*/)
+
+* Learned and adopted code for border-collapse property from [DEV](https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l).
+
+* Learned and adopted code for table-layoutcss property from  [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout)
+
+* Learned and adopted code for for :placeholder property to change the color of the placeholder text from [W3 school](https://www.w3schools.com/howto/howto_css_placeholder.asp)
+
+### Acknowledgements
+
+* Special thanks to Code Institute for exellent leaning materials.
